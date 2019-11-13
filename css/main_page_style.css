@@ -1,0 +1,59 @@
+@media screen and (max-width: 991.98px) {
+    .nav-link-text {
+        /* display: none !important; */
+        display: inline !important; 
+        widows: 100%;
+    }
+    .cloud {
+        display: none !important;
+    }
+}
+body{
+    background-color: black;
+}
+
+header.masthead {
+    padding-top: 7rem;
+    padding-bottom: calc(7rem - 52px);
+    background: linear-gradient(to bottom, rgba(255, 255, 254, 0.8) 0%, rgba(1, 4, 8, 0.8) 0%), url("../tlo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+header .text-color-h1 {
+    color: #e0e7f7;
+}  
+header .text-color-p {  
+    color: #e0e7f7;
+}  
+header .text-font-header {  
+    font-family: 'Bangers', cursive;
+}  
+.text-size-h1 {
+    font-size: 400%;
+}
+.text-size-p {
+    font-size: 150%;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:  #e0e7f7;
+}
+.my-background{        
+    background-image: url("../chmurka.gif");
+}
+.my-text {
+    color: rgb(206, 29, 29);
+}
+.custom_background_navbar{
+    /* background-color: yellow; */
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(255, 255, 254, 0.8) 0%, rgba(1, 4, 8, 0.8) 100%); */
+}
+
+.element_hide {
+    display: none;
+}
