@@ -12,7 +12,7 @@ body{
     background-color: black;
 }
 
-header.masthead {
+header.mainhead {
     padding-top: 7rem;
     padding-bottom: calc(7rem - 52px);
     background: linear-gradient(to bottom, rgba(255, 255, 254, 0.8) 0%, rgba(1, 4, 8, 0.8) 0%), url("../elementy graficzne/tlo/tlo.jpg");
