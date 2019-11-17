@@ -27,8 +27,11 @@ header .text-color-h1 {
 header .text-color-p {  
     color: #e0e7f7;
 }  
-header .text-font-header {  
-    font-family: 'Bangers', cursive;
+.text-font-header {  
+    /* font-family: 'Bangers', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Righteous', cursive;
 }  
 .text-size-h1 {
     font-size: 400%;
@@ -36,11 +39,18 @@ header .text-font-header {
 .text-size-p {
     font-size: 150%;
 }
+
+.text-font-p {
+    font-family: 'Maven Pro', sans-serif;
+}
+.text-size-p {
+   font-size: 120%;
+}
 .cont{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color:  #e0e7f7;
+    /* background-color:  #e0e7f7; */
 }
 .my-background{        
     background-image: url("../chmurka.gif");
@@ -56,4 +66,13 @@ header .text-font-header {
 
 .element_hide {
     display: none;
+}
+
+.myArticlesBox {
+    box-shadow: 0 5px 10px  white;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
