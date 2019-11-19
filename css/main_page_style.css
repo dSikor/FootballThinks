@@ -26,11 +26,14 @@ header .text-color-h1 {
 }  
 header .text-color-p {  
     color: #e0e7f7;
-}  
+} 
+
+.nav-text-font 
+{
+    font-family: 'Righteous', cursive;
+}
+
 .text-font-header {  
-    /* font-family: 'Bangers', cursive; */
-    /* font-family: 'Anton', sans-serif; */
-    /* font-family: 'Lobster', cursive; */
     font-family: 'Righteous', cursive;
 }  
 .text-size-h1 {
@@ -75,4 +78,8 @@ header .text-color-p {
 .responsive {
     width: 100%;
     height: auto;
+}
+
+.text-color-a {
+    color: white;
 }
