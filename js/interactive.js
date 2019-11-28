@@ -12,22 +12,18 @@ $(function() {
       {
          windowSizeMoreThen =false;
       }
-
-
-
    }));
 
   $(window).scroll(function () {
      if ($(this).scrollTop() > 5) {
-        $(`#navbarResponsive`).addClass(`custom_background_navbar`);
+        $(`#navbarResponsive`).addClass(`navbar--background`);
      }
      if ($(this).scrollTop() < 10 && windowSizeMoreThen) {
-         $(`#navbarResponsive`).removeClass(`custom_background_navbar`);
+         $(`#navbarResponsive`).removeClass(`navbar--background`);
      }
   });
 });
 
 $('.navbar-toggler').click(function() {
-   $(`#navbarResponsive`).addClass(`custom_background_navbar`);
-   // $(`#navbarResponsive`).toggleClass(`custom_background_navbar`);
+   $(`#navbarResponsive`).addClass(`navbar--background`);
  });
