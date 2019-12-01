@@ -8,12 +8,12 @@
         display: none !important;
     }
 }
-body{
+body {
     background-color: black;
     font-family: 'Righteous', cursive;
     color: #e0e7f7;
 }
-.navbar--background{
+.navbar--background {
     background-color: black;
 }
 .element_hide {
@@ -28,13 +28,13 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-.mainhead--h1{
+.mainhead--h1 {
     font-size: 400%;
 }
-.mainhead--p{
+.mainhead--p {
     font-size: 150%;
 }
-.articles{
+.articles {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -52,5 +52,6 @@ body{
 .text-color-a {
     color: white;
 }
-
-
+.page-section__image {
+    background-color: white;
+}
