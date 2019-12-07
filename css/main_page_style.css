@@ -7,6 +7,8 @@
     .cloud {
         display: none !important;
     }
+   
+
 }
 body {
     background-color: black;
@@ -19,6 +21,7 @@ body {
 .element_hide {
     display: none;
 }
+
 .mainhead {
     padding-top: 7rem;
     padding-bottom: calc(7rem - 52px);
