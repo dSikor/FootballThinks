@@ -47,10 +47,13 @@ body {
 }
 .articles__paragraph {
     font-family: 'Maven Pro', sans-serif;
+    padding: 0 1%;
+   
 }
 .articles__image {
     max-width: 100%;
     height: auto;
+    padding: 1% 0;
 }
 .text-color-a {
     color: white;
@@ -59,12 +62,12 @@ body {
     background-color: white;
 }
 
-
+/* 
 .mySlides {
     display: none;
-  }
+  } */
 
-  .prev, .next {
+  /* .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -100,4 +103,15 @@ body {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  } */
+
+/* 
+  .someClass {
+      color: white;
+
+
+  } */
+  .container-articles {
+     width: 80%;
+     margin: 0 auto; 
   }
