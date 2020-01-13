@@ -8,9 +8,10 @@
     }
 }
 body {
-    background-color: black;
+    background-color: #0B0C10;
     font-family: 'Righteous', cursive;
-    color: #e0e7f7;
+    color: #C5C6C7;
+    /* color: white; */
 }
 .navbar--background {
     background-color: black;
@@ -40,7 +41,7 @@ body {
     flex-direction: row;
 }
 .articles__articleBox {
-    box-shadow: 0 5px 10px  white;
+    box-shadow: 4px 2px 8px 6px  #45A29E;
 }
 .articles__paragraph {
     font-family: 'Maven Pro', sans-serif;
@@ -65,7 +66,10 @@ body {
 }
 
 .button_style {
-    color: white;
-    background-color: black;
+    color: #C5C6C7;
+    background-color: #0B0C10;
 }
-
+.footer_style{
+    color: #C5C6C7;
+    background-color: #1F2833;
+}
