@@ -8,7 +8,9 @@
     }
 }
 body {
-    background-color: #0B0C10;     
+    /* background-color: #0B0C10;    */
+  
+    background-color:#173046;
     font-family: 'Righteous', cursive;
     color: #d7fbfa;
 }
@@ -24,7 +26,9 @@ body {
 .mainhead {
     padding-top: 7rem;
     padding-bottom: calc(7rem - 52px);
-    background: linear-gradient(to bottom, rgba(255, 255, 254, 0.8) 0%, rgba(1, 4, 8, 0.8) 0%), url("../elementy graficzne/tlo/tlo.jpg");
+    /* background: linear-gradient(to bottom, rgba(255, 255, 254, 0.8) 0%, rgba(1, 4, 8, 0.8) 0%), url("../elementy graficzne/tlo/tlo.jpg"); */
+    /* background: url("../elementy graficzne/tlo/tlo.jpg"); */
+    background-image: url("../elementy graficzne/tlo/tlo2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -42,7 +46,10 @@ body {
     flex-direction: row;
 }
 .articles__articleBox {
-    box-shadow: 3px 5px 8px 6px  #45A29E;
+    /* box-shadow: 3px 5px 8px 6px  #494B68; */
+    background-color: #022140;
+    /* border:solid #494B68; */
+    border: 5px solid rgb(163, 163, 54);
 }
 .articles__paragraph {
     font-family: 'Maven Pro', sans-serif;
@@ -58,7 +65,7 @@ body {
     color: #C5C6C7;
 }
 .page-section {
-    background-color: rgb(9, 17, 26);
+    /* background-color: rgb(9, 17, 26); */
 }
 .page-section__image {
     background-color: #C5C6C7;
@@ -71,7 +78,7 @@ body {
 
 .button_style {
     color: #d7fbfa;
-    background-color: #0B0C10;
+    background-color:#173046;
 }
 .footer_style{
     color: #C5C6C7;
