@@ -10,9 +10,14 @@
 body {
     /* background-color: #0B0C10;    */
   
-    background-color:#173046;
+    /* background-color:#173046; */
     font-family: 'Righteous', cursive;
     color: #d7fbfa;
+     background-image: url("../elementy graficzne/tlo/tlo3test.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover;
 }
 
 
@@ -44,10 +49,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    background-color: #022140;
+    border: 5px solid rgb(163, 163, 54);
 }
 .articles__articleBox {
     /* box-shadow: 3px 5px 8px 6px  #494B68; */
     background-color: #022140;
+     /* background-image: url("../elementy graficzne/tlo/tloTest.jpg"); */
     /* border:solid #494B68; */
     border: 5px solid rgb(163, 163, 54);
 }
@@ -78,7 +86,7 @@ body {
 
 .button_style {
     color: #d7fbfa;
-    background-color:#173046;
+    background-color:none;
 }
 .footer_style{
     color: #C5C6C7;
