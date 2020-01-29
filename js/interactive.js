@@ -24,7 +24,7 @@ $(function() {
     });
 
     $("#but").click(function () {
-      $(".articles-others").toggle();
+      $(".articles-others").toggle("slow");
     });
 
    var windowSizeMoreThen =true;
