@@ -49,7 +49,10 @@ body {
     border: 5px solid rgb(163, 163, 54);
 }
 .articles__articleBox {
+  
+    
     background-color: #022140;
+
     border: 5px solid rgb(163, 163, 54);
 }
 .articles__paragraph {
@@ -71,7 +74,7 @@ body {
 .page-section__image {
     
 
-    
+
 }
 
 .container-articles {
@@ -87,3 +90,4 @@ body {
     color: #C5C6C7;
     background-color: #0B0C10;
 }
+/*background-color: #022140;*/
