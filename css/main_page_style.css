@@ -11,7 +11,10 @@ body {
     
     font-family: 'Righteous', cursive;
     color: #d7fbfa;
-     background-image: url("../elementy graficzne/tlo/tlo3test.jpg");
+     /* background-image: url("../elementy graficzne/tlo/tlo3test.jpg"); */
+     background-image: url("../elementy graficzne/tlo/trawa.jpg");
+
+
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: scroll;
@@ -47,11 +50,33 @@ body {
     flex-direction: row;
     background-color: #022140;
     border: 5px solid rgb(163, 163, 54);
+ 
+
+
 }
+
+.breakSpace {
+
+    width: 100%;
+    height: 2%;
+    /* display: flex; */
+    background-color: black;
+    /* background-color: #021629; */
+    /* background-color: white;  */
+
+
+}
+
+
 .articles__articleBox {
-  
-    
-    background-color: #022140;
+   
+   /* background-image: url("../elementy graficzne/tlo/artykul-tlo.png"); */
+    background-image: url("../elementy graficzne/tlo/TłoArtykulow3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: cover;
+   /* background-color: #022140;*/
 
     border: 5px solid rgb(163, 163, 54);
 }
